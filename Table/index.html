@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Generator Your Table</h1>
+    </header>
+    <div class="table">
+        <label for="writeNumOfTable" class="table">
+         Enter Number:
+          <input class="table" type="number" id="Numoftable" />
+        </label>
+        <br>
+        <br>
+        <label for="countTheNumber" class="table">
+          Number Limit:
+          <input class="table" type="number" id="countNumber" />
+        </label>
+        <br>
+        <br>
+        <button onclick="generateTable()" class="table">Generate</button>
+        <table id="writeTable" class="table"></table>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
